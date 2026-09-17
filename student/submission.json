@@ -3,7 +3,6 @@
   "readiness": {
     "ready": false,
     "missing": [
-      "physics",
       "assumptions",
       "model",
       "prediction",
@@ -16,7 +15,7 @@
   },
   "record": {
     "id": "ff6dd5c5-3a97-49f4-b472-a9ea16df7741",
-    "revision": "1",
+    "revision": "163",
     "model": {
       "moduleId": "controls",
       "modelId": "week07-student-model",
@@ -43,7 +42,7 @@
       "physics": {
         "suppliedBy": "student",
         "locked": false,
-        "text": ""
+        "text": "Downward force aft of the CG creates a counterclockwise moment, lifting the nose up."
       },
       "assumptions": {
         "suppliedBy": "student",

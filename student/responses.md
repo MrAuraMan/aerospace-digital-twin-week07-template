@@ -8,11 +8,11 @@ Answers and recorded model results from `submission.json`. This document does no
 
 - Record ID: ff6dd5c5-3a97-49f4-b472-a9ea16df7741
 
-- Record revision: 731
+- Record revision: 1146
 
 - Model hash: fnv1a-adee3cf8
 
-- Readiness: Marked incomplete or not ready; missing: prediction, verification, claim, reflection, aiUse, execution
+- Readiness: Marked incomplete or not ready; missing: verification, claim, reflection, aiUse, execution
 
 ## Supplied setup (instructor supplied)
 
@@ -70,7 +70,9 @@ c = chord length
 **Prompt:** Before running your own implementation, predict the sign of its elevator moment and the effect of halving airspeed. Explain the competing moment.
 
 **Student response:**
-_Missing — no response supplied._
+```
+The sign of its elevator moment will be positive because the elevator deflection is negative, resulting in a downward lift and positive nose-up moment. Halving the airspeed results in an increase of moment by a factor of 4. The competing moment represents all the base aerodynamic, gravitational and propulsion force acting against the control demand.
+```
 
 ### verification
 **Prompt:** Show one independent hand calculation with units. Compare it with your model, and explain a sign, unit, or limiting-case check.

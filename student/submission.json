@@ -3,7 +3,6 @@
   "readiness": {
     "ready": false,
     "missing": [
-      "prediction",
       "verification",
       "claim",
       "reflection",
@@ -13,7 +12,7 @@
   },
   "record": {
     "id": "ff6dd5c5-3a97-49f4-b472-a9ea16df7741",
-    "revision": "731",
+    "revision": "1146",
     "model": {
       "moduleId": "controls",
       "modelId": "week07-student-model",
@@ -60,7 +59,7 @@
       "prediction": {
         "suppliedBy": "student",
         "locked": false,
-        "text": ""
+        "text": "The sign of its elevator moment will be positive because the elevator deflection is negative, resulting in a downward lift and positive nose-up moment. Halving the airspeed results in an increase of moment by a factor of 4. The competing moment represents all the base aerodynamic, gravitational and propulsion force acting against the control demand."
       },
       "execution": {
         "suppliedBy": "automatic",

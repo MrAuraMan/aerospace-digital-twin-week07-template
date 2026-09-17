@@ -8,11 +8,11 @@ Answers and recorded model results from `submission.json`. This document does no
 
 - Record ID: ff6dd5c5-3a97-49f4-b472-a9ea16df7741
 
-- Record revision: 163
+- Record revision: 690
 
 - Model hash: fnv1a-adee3cf8
 
-- Readiness: Marked incomplete or not ready; missing: assumptions, model, prediction, verification, claim, reflection, aiUse, execution
+- Readiness: Marked incomplete or not ready; missing: prediction, verification, claim, reflection, aiUse, execution
 
 ## Supplied setup (instructor supplied)
 
@@ -42,13 +42,28 @@ Downward force aft of the CG creates a counterclockwise moment, lifting the nose
 **Prompt:** Explain one supplied assumption and what could invalidate it: planar motion, fixed reference, local linear effectiveness, no trim or damping.
 
 **Student response:**
-_Missing — no response supplied._
+```
+Local linear effectiveness assumes that the pitching moment coefficient varies linearly with elevator deflection. What could invalidate this assumption is during large deflection angles.
+```
 
 ### model
 **Prompt:** Write your demand, dynamic-pressure, coefficient and moment equations. Identify which quantities are supplied and which are unknown.
 
 **Student response:**
-_Missing — no response supplied._
+```
+Demand = (Iy * target) - competing
+
+q(infinity) = 1/2 * (pv^2)
+Cm           = M / (q(inf) * S * c)
+CL             = L / (q(inf) *S)
+Re             = (pvc) / μ
+
+p = density
+v = volume
+S = wing area
+c = chord length
+μ = dynamic viscosity
+```
 
 ### prediction
 **Prompt:** Before running your own implementation, predict the sign of its elevator moment and the effect of halving airspeed. Explain the competing moment.

@@ -13,7 +13,7 @@
   },
   "record": {
     "id": "ff6dd5c5-3a97-49f4-b472-a9ea16df7741",
-    "revision": "690",
+    "revision": "731",
     "model": {
       "moduleId": "controls",
       "modelId": "week07-student-model",
@@ -55,7 +55,7 @@
       "model": {
         "suppliedBy": "student",
         "locked": false,
-        "text": "Demand = (Iy * target) - competing\n\nq(infinity) = 1/2 * (pv^2)\nCm           = M / (q(inf) * S * c)\nCL             = L / (q(inf) *S)\nRe             = (pvc) / μ\n\np = density\nv = volume\nS = wing area\nc = chord length\nμ = dynamic viscosity"
+        "text": "Demand = (Iy * target) - competing\n\nq(infinity) = 1/2 * (pv^2)\nCm           = M / (q(inf) * S * c)\nM            = Cmδ * q(infinity) * S * c\nCL             = L / (q(inf) *S)\nRe             = (pvc) / μ\n\np = density\nv = volume\nS = wing area\nc = chord length\nμ = dynamic viscosity"
       },
       "prediction": {
         "suppliedBy": "student",

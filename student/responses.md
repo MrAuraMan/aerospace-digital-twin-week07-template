@@ -8,7 +8,7 @@ Answers and recorded model results from `submission.json`. This document does no
 
 - Record ID: ff6dd5c5-3a97-49f4-b472-a9ea16df7741
 
-- Record revision: 690
+- Record revision: 731
 
 - Model hash: fnv1a-adee3cf8
 
@@ -55,6 +55,7 @@ Demand = (Iy * target) - competing
 
 q(infinity) = 1/2 * (pv^2)
 Cm           = M / (q(inf) * S * c)
+M            = Cmδ * q(infinity) * S * c
 CL             = L / (q(inf) *S)
 Re             = (pvc) / μ
 
